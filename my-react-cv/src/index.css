@@ -107,3 +107,30 @@ a:hover {
         margin: 30px 0;
     }
 }
+
+/* navbar */
+.navbar__items {
+    display: flex;
+}
+
+.navbar__active {
+    font-size: 2rem;
+    font-weight: 700;
+    color: grey;
+    border-bottom: 4px solid  #c31432;
+}
+
+.navbar__item{
+    margin-right: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar__item:hover{
+    background: -webkit-linear-gradient(#c31432,#240b36);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
