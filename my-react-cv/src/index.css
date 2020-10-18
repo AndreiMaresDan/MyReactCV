@@ -41,6 +41,7 @@ a:hover {
     background-color: white;
     border-radius: 20px;
     padding: 25px 15px;
+    box-shadow: 0 0 10px black;
 }
 
 /* sidebar */
@@ -54,11 +55,11 @@ a:hover {
 }
 
 .sidebar__avatar {
-    height: 110px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
     object-fit: contain;
-    border-radius: 30px;
-
+    border-radius: 100%;
+    background-image: linear-gradient(to right bottom, #c31432,#240b36);
 }
 
 .sidebar__icon {

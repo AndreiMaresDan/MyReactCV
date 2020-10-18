@@ -4,8 +4,9 @@ import instagram from '../components/icons/instagram.svg';
 import github from '../components/icons/github.svg';
 import pin from '../components/icons/pin.svg';
 import tie from '../components/icons/tie.svg';
-import mightycoder from '../components/mightycoder.svg';
+import avatar from '../components/avatar.jpg';
 import resume from '../components/resume.pdf';
+import linkedin from '../components/icons/linkedin-logo.svg'
 import { motion } from 'framer-motion'
 
 
@@ -31,9 +32,9 @@ const Sidebar = () => {
         initial='hidden'
         animate='visible'>
 
-            <img src={mightycoder} alt="avatar" className="sidebar__avatar"/>
+            <img src={avatar} alt="avatar" className="sidebar__avatar"/>
             <div className="sidebar__name">Dan-Andrei <span>Mares</span></div>
-            <div className="sidebar__item sidebar__title">Student</div>
+            <div className="sidebar__item sidebar__title">Student/Frontend Developer</div>
             <a href={resume} download="resume.pdf">
                 <div className="sidebar__item sidebar__resume">
                     <img src={tie} alt="resume" className="sidebar__icon"/> Download Resume
@@ -46,6 +47,9 @@ const Sidebar = () => {
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
                     <a href="#"><img src={github} alt="github" className="sidebar__icon mr-3"/>github</a>
+                </div>
+                <div className="sidebar__item sidebar__linkedin">
+                    <a href="#"><img src={linkedin} alt="linkedin" className="sidebar__icon mr-3"/>linkedin</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3"/>

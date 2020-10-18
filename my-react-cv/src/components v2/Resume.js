@@ -34,12 +34,16 @@ const Resume = () => {
                     </h4>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                            Political Sciences
+                            Security, Intelligence and Competitivity in Organizations (2020-2022)
+                        </h5>
+                        <h5 className="resume-card__title">
+                            Political Sciences (2017-2020)
                         </h5>
                         <p className="resume-card__name">
-                            Babes-Bolyai University
+                            Babes-Bolyai University, Cluj-Napoca
                         </p>
-                        <p className="resume-carc__details">The best University in Romania</p>
+                        <p className="resume-carc__details">One of the highest rated universities in Romania and in the EU, Babes-Bolyai University is 
+                     well known for its quality teachers and academic programms.</p>
                     </div>
                 </div>
 
@@ -49,12 +53,12 @@ const Resume = () => {
                     </h4>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                            Lorem ipsuiubbu
+                            Intro in IT / Web Development(JS) <br></br>(2019-2020)
                         </h5>
                         <p className="resume-card__name">
-                            Boyebeub
+                            Scoala informala de IT
                         </p>
-                        <p className="resume-carc__details">The best University in Romania</p>
+                        <p className="resume-carc__details">A very informal and friendly environment where anyone could start learning about programming.</p>
                     </div>
                 </div>
             </div>

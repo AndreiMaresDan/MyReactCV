@@ -1,5 +1,9 @@
 import JavaScript from '../../components/icons/java-script.svg';
-import computer from '../../components/icons/computer.svg'
+import react from '../../components/icons/react.svg'
+import browser from '../../components/icons/browser.svg'
+import ps from '../../components/icons/ps.svg'
+import adobe from '../../components/icons/adobe.svg'
+import code from '../../components/icons/code.svg'
 
 const languages = [
     {
@@ -8,12 +12,12 @@ const languages = [
         level:'76'
     },
     {
-        icon:computer,
+        icon:react,
         name:'React',
         level:'60'
     },
     {
-        icon:computer,
+        icon:browser,
         name:'HTML/CSS',
         level:'80'
     }
@@ -21,17 +25,17 @@ const languages = [
 
 const tools = [
     {
-        icon:JavaScript,
+        icon:ps,
         name:'Illustrator/Photoshop',
         level:'89'
     },
     {
-        icon:computer,
+        icon:adobe,
         name:'Adobe/Office Package',
         level:'90'
     },
     {
-        icon:computer,
+        icon:code,
         name:'Github/GitBash/VSC',
         level:'86'
     }
