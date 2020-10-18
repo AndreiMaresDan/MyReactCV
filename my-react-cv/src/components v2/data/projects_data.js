@@ -1,20 +1,11 @@
-// import tweetme from '../../components/projects_images/tweetme.PNG'
-// import chatapp from '../../components/projects_images/chatapp.JPG'
-// import hardware_store from '../../components/projects_images/hardware_store.jpg'
-// import portfolio from '../../components/projects_images/portfolio.JPG'
-// import new_year from '../../components/projects_images/new_year.jpg'
-// import color_classification from '../../components/projects_images/color_classification.jpg'
-// import blinking from '../../components/projects_images/blinking.JPG'
-// import COVID from '../../components/projects_images/COVID.jpg'
-// import Dev_talks from '../../components/projects_images/Dev_talks.jpg'
 
-import imdb from '../../components/projects_images/imdb.jpg';
+import imdb from '../../components/projects_images/imdb.png';
 import hangman from '../../components/projects_images/hangman.png';
 import rockpaperscissors from '../../components/projects_images/rockpaperscissors.png';
-import recursive from '../../components/projects_images/recursive.jpeg';
-import mealsmenu from '../../components/projects_images/mealsmenu.jpg';
+import recursive from '../../components/projects_images/recursive.png';
+import mealsmenu from '../../components/projects_images/mealsmenu.png';
 import pagination from '../../components/projects_images/pagination.png';
-import carousel from '../../components/projects_images/carousel.jpg';
+import carousel from '../../components/projects_images/carousel.png';
 
 
 
