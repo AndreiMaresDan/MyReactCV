@@ -1,81 +1,71 @@
-import tweetme from '../../components/projects_images/tweetme.PNG'
-import chatapp from '../../components/projects_images/chatapp.JPG'
-import hardware_store from '../../components/projects_images/hardware_store.jpg'
-import portfolio from '../../components/projects_images/portfolio.JPG'
-import new_year from '../../components/projects_images/new_year.jpg'
-import color_classification from '../../components/projects_images/color_classification.jpg'
-import blinking from '../../components/projects_images/blinking.JPG'
-import COVID from '../../components/projects_images/COVID.jpg'
-import Dev_talks from '../../components/projects_images/Dev_talks.jpg'
+// import tweetme from '../../components/projects_images/tweetme.PNG'
+// import chatapp from '../../components/projects_images/chatapp.JPG'
+// import hardware_store from '../../components/projects_images/hardware_store.jpg'
+// import portfolio from '../../components/projects_images/portfolio.JPG'
+// import new_year from '../../components/projects_images/new_year.jpg'
+// import color_classification from '../../components/projects_images/color_classification.jpg'
+// import blinking from '../../components/projects_images/blinking.JPG'
+// import COVID from '../../components/projects_images/COVID.jpg'
+// import Dev_talks from '../../components/projects_images/Dev_talks.jpg'
+
+import imdb from '../../components/projects_images/imdb.jpg';
+import hangman from '../../components/projects_images/hangman.png';
+import rockpaperscissors from '../../components/projects_images/rockpaperscissors.png';
+import recursive from '../../components/projects_images/recursive.jpeg';
+import mealsmenu from '../../components/projects_images/mealsmenu.jpg';
+import pagination from '../../components/projects_images/pagination.png';
+import carousel from '../../components/projects_images/carousel.jpg';
+
+
 
 const data_projects = [
     {
-        name: 'COVID 19 tracker',
-        image: COVID,
-        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
-        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
-        category: ['react.js']
+        name: 'Rock, Paper, Scissors',
+        image: rockpaperscissors,
+        github_url: 'https://github.com/StefanRadusi/scit_grupa-15/tree/mares-andrei-function-and-scope-homework',
+        category: ['functions']
     },
 
     {
-        name: 'Dev Talks',
-        image: Dev_talks,
-        deployed_url: 'https://dev-talks.herokuapp.com/',
-        github_url: 'https://github.com/Dey-Sumit/Dev-talks',
-        category: ['node.js', 'mongoDB', 'react.js']
+        name: 'Meals Menu',
+        image: mealsmenu,
+        github_url: 'https://github.com/StefanRadusi/scit_grupa-15/tree/andrei-mares-async-programming-homework',
+        category: ['async']
     },
 
     {
-        name: 'Realtime Chat App',
-        image: chatapp,
-        deployed_url: 'https://sumit-chat.netlify.app/',
-        github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
-        category: ['node', 'socket.io', 'react']
+        name: 'Hangman',
+        image: hangman,
+        github_url: 'https://github.com/StefanRadusi/scit_grupa-15/tree/andrei-mares-hangman-homework',
+        category: ['functions']
     },
 
     {
-        name: 'Tweeter Clone',
-        image: tweetme,
-        deployed_url: 'http://sumaxtweetme.pythonanywhere.com/',
-        github_url: 'https://github.com/Dey-Sumit/tweetme',
-        category: ['django', 'react']
-    },
-
-    {
-        name: 'Shop Website',
-        image: hardware_store,
-        deployed_url: '!#',
-        category: ['html_css', 'vanilla']
-    },
-
-    {
-        name: 'Dev Portfolio',
-        image: portfolio,
-        deployed_url: 'http://suprateem.herokuapp.com/',
+        name: 'Images Carousel',
+        image: carousel,
+        github_url: 'https://github.com/StefanRadusi/scit_grupa-15/tree/andrei-mares-images-carousel-homework',
         category: ['vanilla']
     },
 
     {
-        name: 'Bengali New Year',
-        image: new_year,
-        deployed_url: 'https://dey-sumit.github.io/NewYear/',
-        category: ['vanilla']
+        name: 'Pagination',
+        image: pagination,
+	    github_url: 'https://github.com/StefanRadusi/scit_grupa-15/tree/andrei-mares-pagination-homework',
+        category: ['functions', 'BOM', 'vanilla']
     },
 
     {
-        name: 'Color Classification using tf.js',
-        image: color_classification,
-        deployed_url: '!#',
-        github_url: 'https://github.com/Dey-Sumit/color-classification',
-        category: ['node', 'machine_learning']
+        name: 'Recursive',
+        image: recursive,
+	    github_url: 'https://github.com/StefanRadusi/scit_grupa-15/tree/andrei-mares-recursive-homework-start',
+        category: ['functions']
     },
 
     {
-        name: 'Blinking bubbles',
-        image: blinking,
-        deployed_url: 'https://dey-sumit.github.io/Blinking_Bubbles/',
-        github_url: 'https://github.com/Dey-Sumit/Blinking_Bubbles',
-        category: ['processing']
+        name: 'Movie 101',
+        image: imdb,
+	    github_url: 'https://github.com/penceajr/movies101',
+        category: ['react.js', 'functions', 'async']
     }
 ]
 

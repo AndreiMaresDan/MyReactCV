@@ -110,6 +110,7 @@ a:hover {
 }
 
 .sidebar__github:hover,
+.sidebar__linkedin:hover,
 .sidebar__resume:hover {
     background-color: #f1f1f2;
     color: black;
