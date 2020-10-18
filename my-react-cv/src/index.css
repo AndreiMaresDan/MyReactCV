@@ -4,6 +4,7 @@ body{
     background-image: linear-gradient(to right bottom, #c31432,#240b36);
     background-attachment: fixed;
     color: purple;
+    font-family: sans-serif;
 }
 
 ::-webkit-scrollbar{
@@ -146,31 +147,6 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-/* about */
-
-.about{
-    padding: 20px;
-    margin: -30px;
-}
-
-.about__intro{
-    font-size: 1.1rem;
-    padding: 20px;
-    margin: 10px 0;
-}
-
-.about__container{
-    background-color: beige;
-    padding: 30px 20px;
-}
-
-.about__heading{
-    font-size: 25px;
-    font-weight: 700;
-    color: grey;
-    margin-left: 10px;
-}
-
 /* .skill-card */
 .skill-card{
     background-color: white;
@@ -204,7 +180,7 @@ a:hover {
 .resume-card__heading,
 .resume-language__heading{
     margin-left: 10px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: maroon;
 }
@@ -222,8 +198,8 @@ a:hover {
 }
 
 .resume-card__details{
-    font-size: 0.5rem;
-    padding-top: 20px;
+    font-size: 0.9rem;
+    padding-top: 5px;
 }
 
 /* bar */
@@ -299,4 +275,24 @@ a:hover {
     margin: 0 5px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.projects__navbar-active{
+    color: red;
+
+}
+
+@media (max-width: 600px) {
+    .app__main-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .navbar__active{
+        font-size: 1.5rem;;
+    }
+
+    .navbar__item{
+        font-size: 1rem;
+    }
 }

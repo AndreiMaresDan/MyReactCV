@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components v2/Navbar';
 import Sidebar from './components v2/Sidebar';
 import { useLocation, Route, Redirect, Switch } from 'react-router-dom';
-import About from './components v2/About';
+import About from './components v2/about/About';
 import Resume from './components v2/Resume';
 import Projects from './components v2/Projects';
 import {AnimatePresence} from 'framer-motion'
