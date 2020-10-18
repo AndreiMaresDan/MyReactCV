@@ -2,6 +2,7 @@ import React from 'react';
 import Bar from './Bar';
 import JavaScript from '../components/icons/java-script.svg';
 import computer from '../components/icons/computer.svg'
+import { motion } from 'framer-motion'
 
 
 const languages = [
@@ -42,8 +43,29 @@ const tools = [
 ]
 
 const Resume = () => {
+    const resume_variant = {
+        hidden:{
+            opacity: 0
+        },
+        visible: {
+            opacity: 1,
+            transition: {
+                delay: 0.2, duration: 0.6, 
+            }
+        },
+        exit:{
+            opacity: 0,
+            transition:{
+                ease:'easeInOut'
+            }
+        }
+    }
     return (
-        <div className="container resume">
+        <motion.div className="container resume"
+        variants={resume_variant}
+        initial='hidden'
+        animate='visible'
+        exit='exit'>
             <div className="row">
                 <div className="col-lg-6 resume-card">
                     <h4 className="resume-card__heading">
@@ -103,7 +125,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

@@ -6,14 +6,31 @@ import pin from '../components/icons/pin.svg';
 import tie from '../components/icons/tie.svg';
 import mightycoder from '../components/mightycoder.svg';
 import resume from '../components/resume.pdf';
+import { motion } from 'framer-motion'
 
 
 const Sidebar = () => {
     const handleEmailMe = () => {
         window.open("mailto:andrei.mares911@gmail.com")
     }
+
+    const sidebar_variant = {
+        hidden: {
+            x: '-20vw',
+        },
+        visible: {
+            x: 0,
+            transition: {
+                delay: 0.1, duration: 0.5, type: 'spring'
+            }
+        }
+    }
     return (
-        <div className="sidebar">
+        <motion.div className="sidebar"
+        variants={sidebar_variant}
+        initial='hidden'
+        animate='visible'>
+
             <img src={mightycoder} alt="avatar" className="sidebar__avatar"/>
             <div className="sidebar__name">Dan-Andrei <span>Mares</span></div>
             <div className="sidebar__item sidebar__title">Student</div>
@@ -38,7 +55,7 @@ const Sidebar = () => {
                 <div className="sidebar__item">0755.347.130</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>email me</div>
-        </div>
+        </motion.div>
 
     );
 };

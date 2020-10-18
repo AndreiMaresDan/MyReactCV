@@ -3,6 +3,7 @@ import api from '../components/icons/api.svg';
 import computer from '../components/icons/computer.svg';
 import Skillcard from '../components v2/Skillcard';
 import puzzle from '../components/icons/puzzle.svg';
+import { motion } from 'framer-motion'
 
 const skills = [
     {
@@ -39,8 +40,29 @@ const skills = [
 ]
 
 const About = () => {
+    const about_variant = {
+        hidden:{
+            opacity: 0
+        },
+        visible: {
+            opacity: 1,
+            transition: {
+                delay: 0.2, duration: 0.6, 
+            }
+        },
+        exit:{
+            opacity: 0,
+            transition:{
+                ease:'easeInOut'
+            }
+        }
+    }
     return (
-        <div className="about">
+        <motion.div className="about"
+        variants={about_variant}
+        initial='hidden'
+        animate='visible'
+        exit='exit'>
         <h6 className="about__intro">
         Friendly future front-end developer, 
         interested in geopolitics, foreign languages and cooking, I like to think that life is full of opportunities 
@@ -56,7 +78,7 @@ const About = () => {
                     }
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
