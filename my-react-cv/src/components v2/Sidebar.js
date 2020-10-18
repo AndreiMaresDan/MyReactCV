@@ -41,15 +41,15 @@ const Sidebar = () => {
                 </div>
             </a>
             <figure className="sidebar__social-icons my-2">
-                <a href="#"><img src={facebook} alt="facebook" className="sidebar__icon mr-3"/> </a>
-                <a href="#"><img src={instagram} alt="instagram" className="sidebar__icon"/> </a>
+                <a href="https://www.facebook.com/mares.andrei.355"><img src={facebook} alt="facebook" className="sidebar__icon mr-3"/> </a>
+                <a href="https://www.instagram.com/andrei.mares119"><img src={instagram} alt="instagram" className="sidebar__icon"/> </a>
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href="#"><img src={github} alt="github" className="sidebar__icon mr-3"/>github</a>
+                    <a href="https://github.com/AndreiMaresDan"><img src={github} alt="github" className="sidebar__icon mr-3"/>github</a>
                 </div>
                 <div className="sidebar__item sidebar__linkedin">
-                    <a href="#"><img src={linkedin} alt="linkedin" className="sidebar__icon mr-3"/>linkedin</a>
+                    <a href="https://www.linkedin.com/in/dan-andrei-mares-9b5a4a196/"><img src={linkedin} alt="linkedin" className="sidebar__icon mr-3"/>linkedin</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3"/>

@@ -10,32 +10,32 @@ import language from '../../components/icons/language.svg';
 const skills = [
     {
         icon:computer,
-        title:"Front-End Developer",
+        title:[<strong key={1}>Frontend Developer</strong>],
         about:["I can create a working website using", <strong key={1}> HTML/CSS/JS/REACT </strong>]
     },
     {
         icon:graphicdesigner,
-        title:"Graphic Designer",
+        title:[<strong key={1}>Graphic Designer</strong>],
         about:"I can design posters and edit images for different purposes."
     },
     {
         icon:politics,
-        title:"Political Analyst",
+        title:[<strong key={1}>Politics Analyst</strong>],
         about:"Wether is about domestic or foreign politics, no problem remains unsolved"
     },
     {
         icon:pr,
-        title:"PR",
+        title:[<strong key={1}>PR</strong>],
         about:"I can manage online or offline adds or various events targeting the right public"
     },
     {
         icon:language,
-        title:"Language Enthusiast",
+        title:[<strong key={1}>Language Enthusiast</strong>],
         about:"Currently I am fluent in English, but I am learning Arabic and also, I am open to anything new"
     },
     {
         icon:puzzle,
-        title:"Good working ethic",
+        title:[<strong key={1}>Good working ethic</strong>],
         about:"My entire working activity resides on voluntary work and one NGO leadership"
     }
 
